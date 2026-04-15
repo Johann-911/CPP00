@@ -1,10 +1,11 @@
 #ifndef CONTACT_HPP
-#define CONTACT_APP
+#define CONTACT_HPP
 
 #include <iostream>
 #include <iomanip>
 #include <cctype>
 #include <string>
+#include <stdexcept>
 
 class Contact 
 {

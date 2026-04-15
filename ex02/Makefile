@@ -1,7 +1,7 @@
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++11
-NAME = phonebook
-SRCS = main.cpp PhoneBook.cpp Contact.cpp
+CXXFLAGS = -Wall -Wextra -Werror -std=c++11 -Wno-deprecated-declarations
+NAME = account
+SRCS = tests.cpp Account.cpp
 OBJS = $(SRCS:.cpp=.o)
 RM = rm -f
 
